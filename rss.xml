@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+  <title>&lt;ppo/&gt;</title>
+  <link>http://antoineboucherppo.site11.com/</link>
+  <description>Projet Personnel d’Orientation(PPO) de Antoine Boucher.</description>
+  <lastBuildDate>Sat, 29 Nov 2014 20:32:46 GMT</lastBuildDate>
+
+<image>
+        <title></title>
+        <url>http://antoineboucherppo.site11.com/img/ppo-trans-4.png</url>
+        <link>http://antoineboucherppo.site11.com/</link>
+        <width>100</width>
+        <height>50</height>
+        <description>&lt;ppo/&gt;</description>
+</image>
+
+<item>
+    <title>Home</title>
+    <link>http://antoineboucherppo.site11.com/HomeProjet.html</link>
+    <pubDate>Sat, 29 Nov 2014 20:32:45 GMT</pubDate>
+	
+	  </item>
+</channel>
+</rss>
