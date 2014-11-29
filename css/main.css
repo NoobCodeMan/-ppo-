@@ -320,11 +320,17 @@ textarea {
 body{
 	margin:0px; 
 	padding:0px;
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:Helvetica,Arial,sans-serif;
     font-size: 14px;
 	color: #333333;
 	}
 
  #navbar-brand {
 	 padding:0px 0px;
+	 font-family: 'Montserrat', sans-serif;
  }
+ #navbar {
+	 font-family: 'Montserrat', sans-serif;
+	 color: rgba(49, 49, 49, 0.57);
+ }
+ 
