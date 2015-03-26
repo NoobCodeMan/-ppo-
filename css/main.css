@@ -10,18 +10,16 @@
    Base styles: opinionated defaults
    ========================================================================== */
 @font-face {
-    font-family: "Lobster13Regular";
-    src: url(http://antoineboucherppo.site11.com/css/Lobster%201.4.otf) format("OpenType");
-	font-weight:normal;
-	font-style:normal;
+  font-family: 'Shift';
+  font-style: normal;
+  font-weight: normal;
+  src: url("http://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift.woff") format("woff");
 }
 @font-face {
-    font-family: "Squared Display";
-    src: url(http://antoineboucherppo.site11.com/css/Squared Display.ttf) format("TrueType");
-}
-@font-face {
-    font-family: "amuninokia";
-    src: url(http://antoineboucherppo.site11.com/css/amuninokia.ttf) format("TrueType");
+  font-family: 'Shift';
+  font-style: normal;
+  font-weight: bold;
+  src: url("http://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift-bold.woff") format("woff");
 }
 
 html,
@@ -238,12 +236,7 @@ textarea {
     /* Style adjustments for viewports that meet the condition */
 }
 
-@media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
-}
+
 
 /* ==========================================================================
    Print styles.
@@ -292,13 +285,6 @@ textarea {
     }
 
     tr,
-    img {
-        page-break-inside: avoid;
-    }
-
-    img {
-        max-width: 100% !important;
-    }
 
     @page {
         margin: 0.5cm;
@@ -323,6 +309,7 @@ body{
 	font-family:Helvetica,Arial,sans-serif;
     font-size: 14px;
 	color: #333333;
+	background-color: #ededeb;
 	}
 
  #navbar-brand {
@@ -333,4 +320,56 @@ body{
 	 font-family: 'Montserrat', sans-serif;
 	 color: rgba(49, 49, 49, 0.57);
  }
+
+.jumbotron .back { background-image:url('/img/allo 161.jpg');
+ height: 500px;
+ background-repeat: no-repeat;
+ background-size: cover; 
+ text-align: center;
+  background-color: transparent;
+}
+ .jumbotron .container
+ { position: relative;
+ top:100px;
+ } .jumbotron h1 
+{ 
+font-color: #fff;
+ font-size: 48px;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: bold; 
+} 
+.jumbotron p
+ {
+ font-size: 20px;
+  color: rgba(82,76,76,0.77);
+	
+ }
+ .jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+.footer
+{
+	padding-top: 19px;
+	color: #777;
+	border-top: 1px solid #e5e5e5;
+	margin-top: 62px;
+	margin-right: 62px;
+	margin-bottom: 62px;
+	margin-left: 62px;
+}
+#ppo-footer
+{
+	-webkit-filter: blur(2px) opacity(0.2);
+	margin-top: -15px;
+	margin-left:-10px;
  
+	
+	
+	}
+.game
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 575px;
+	}

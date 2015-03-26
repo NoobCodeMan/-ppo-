@@ -3,11 +3,11 @@
 
 # TEAM
 
-	Antoine Boucher -- @ant_bou
+    <Antoine Boucher> -- <Web Developper>
 
 # THANKS
 
-	Me
+    <Me>
 
 # TECHNOLOGY COLOPHON
 
