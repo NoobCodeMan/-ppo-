@@ -17,137 +17,57 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-		 <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="/css/flexslider.css"/>
-        <script type='text/javascript' src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="js/jquery-2.1.3.min.js"></script>
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+<script src="js/bootstrap/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap-theme.min.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.min.css">
                              <!--Jquery-->
-        <script type='text/javascript' src='//code.jquery.com/jquery-2.1.0.js'></script>
+
         <script src="/js/plugins.js"></script>
         <script src="/js/main.js"></script>
-        <script src="/js/jquery.flexslider.js"></script>
+
         
     </head>
-    
-    <body>
+<body>
+
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <script type='text/javascript'>
-$(window).load(function() {
-  $('.flexslider').flexslider({
-    animation: "slide",
-	slideshowSpeed: 7000,
-	animationSpeed: 600,  
-	directionNav: true,  
-	keyboard: true, 
-	slideshow: true, 
-	controlNav: false,
-	prevText: "",          
-	nextText: "",
-	useCSS: Modernizr.touch,
-	animationLoop: true,	
-	
-	
-  });
-});
-</script>
+        <!--Javascript -->
+
+        
         
         
         
 
         <!-- Add your site or application content here -->
         <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+
+        <!-- Fixed navbar -->
+   <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                 <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
           </button>
-          <a id="navbar-brand" class="navbar-brand" href="#"><img src="/img/ppo-trans-4.png" alt="<ppo/>" class="img-responsive"></a>
+          
+          <a id="navbar-brand" class="navbar-brand" href="#"><img src="/img/ppo-trans-4.png" alt="<ppo/>"></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse ">
            <ul class="nav navbar-nav navbar-right">
-			<li ><a href="#">Home</a></li>
-            <li><a href="#Projet">Projet</a></li>
-            <li><a href="#About">About</a></li>      
+			<li ><a href="Home.html">Home</a></li>
+            <li><a href="Projet.html">Projet</a></li>
+            <li><a href="About.html">About</a></li>      
           </ul>
         </div>
       </div>
     </nav>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+
+    <input id="queryinput" autocomplete="off" type="text" placeholder="Search">
+    <div class="result">
     
-    
-<div class="jumbotron masthead">
-
-<div id="slideshow" class="container">
-<div class="flexslider">
-  <ul class="slides">
-    <li>
-    <div>
-      <img src="/img/tag.png"class="img-responsive" alt=""/>
-      </div>
-    </li>
-    <li>
-    <div>
-      <img src="/img/dlb.png" class="img-responsive" alt=""/>
-      </div>
-    </li>
-    <li>
-    <div>
-      <img src="/img/RICOCHET KILL.png" class="img-responsive" alt=""/>
-      </div>
-    </li>
-  </ul>
-</div>
-</div>
-</div>
-
-
-    <div class="container marketing">
-
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
-          <h2>Heading</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-
-
-        <!-- Google Analytics: change UA-48940108-3 to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-48940108-3');ga('send','pageview');
-        </script>
-    </body>
-</html>
+    </div>

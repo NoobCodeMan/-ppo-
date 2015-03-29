@@ -320,8 +320,12 @@ body{
 	 font-family: 'Montserrat', sans-serif;
 	 color: rgba(49, 49, 49, 0.57);
  }
+ 
+.tag-h1 {
+	text-align:center;
+}
 
-.jumbotron .back { background-image:url('/img/allo 161.jpg');
+.back { background-image:url('/img/allo 161.jpg');
  height: 500px;
  background-repeat: no-repeat;
  background-size: cover; 
@@ -373,3 +377,84 @@ font-color: #fff;
 	margin-right: auto;
 	width: 575px;
 	}
+	
+	#queryinput {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 85%;
+	margin-bottom: 15px;
+	border: none;
+	padding: 13px 20px 15px;
+	font-size: 20px;
+	font-family: "Open Sans",sans-serif;
+	background-color: #fff;
+	border-radius: 0;
+	font-weight: 300;
+	box-shadow: 0 0 100px rgba(0,0,0,.7);
+	margin-left: 100px;
+
+}
+.result
+{
+	position: relative;
+	top: 0;
+	left: 0;
+	margin-left: 100px;
+	font-family: "Open Sans",sans-serif;
+	border: none;
+	width: 85%;
+	margin-bottom: 15px;
+}
+.result-count
+{
+	margin-left: 100px;
+	position: relative;
+	top: 0;
+	left: 0;
+	font-family: "Open Sans",sans-serif;
+	border: none;
+	width: 85%;
+}
+.row-info
+{
+	margin-right: 15px;
+
+}
+.space-bug
+{
+	margin-left: -19px;
+	
+}
+.wrapper-about
+{
+	position: relative;
+	top: 0;
+	left: 0;
+	font-family: "Open Sans",sans-serif;
+	border: none;
+	width: 85%;
+	margin-left: 100px;
+}
+.info-img-antoine
+{
+	font-family: "Open Sans",sans-serif;
+	text-align: center;
+	width: 85%;
+	
+	
+}
+.center-about
+{
+	border-bottom: 1px solid #e5e5e5;
+}
+.container.tables-about{
+	margin-left: -15px;
+
+
+}
+.github-link
+{
+	width: 20%;
+	
+}
